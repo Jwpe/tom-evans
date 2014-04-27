@@ -5,22 +5,62 @@
     <title>Tom Evans</title>
 
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="style/main.css" />
 
     <!-- Modernizr deals with browser compatibility. -->
-    <script src="/js/vendor/modernizr.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
 
   </head>
 
   <body>
-    <ul class="side-nav">
-      <li><a href="#">Intro</a></li>
-      <li><a href="#">Music</a></li>
-      <li><a href="#">Film</a></li>
-    </ul>
+    <div class="row">
 
-    <script src="/js/vendor/jquery-2.1.0.min.js"></script>
-    <script src="/js/vendor/fastclick.js"></script>
-    <script src="/js/vendor/foundation/foundation.min.js"></script>
+      <div class="large-3 medium-4 columns">
+        <div class="sidebar">
+          <nav>
+            <ul class="side-nav">
+              <li class="heading"><a href="#intro">Intro</a></li>
+
+              <li class="divider"></li>
+              <li class="heading"><a href="#music">Music</a></li>
+
+              <li class="divider"></li>
+              <li class="heading"><a href="#">Film</a></li>
+
+              <li class="divider"></li>
+              <li class="heading"><a href="#">Contact</a></li>
+              <li>
+                <a href="https://www.linkedin.com/pub/thomas-evans/60/b6b/820" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="large-9 medium-8 columns">
+
+        <h1 id="intro">
+          Tom <span class="accent">Evans</span>
+        </h1>
+        <h3 class="subheader">
+          Student - Bachelor of Arts (BA), Television and Film Production
+        </h3>
+
+        <hr>
+
+        <h3 id="music">
+          Music
+        </h3>
+
+
+      </div>
+    </div>
+
+
+    <script src="js/vendor/jquery-2.1.0.min.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/vendor/foundation/foundation.min.js"></script>
   </body>
 </html>
