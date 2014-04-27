@@ -22,6 +22,7 @@ $side-nav-font-size: rem-calc(16);
 $side-nav-link-color: $primary-font-color;
 $side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
 $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
+$side-nav-divider-color: $accent-color;
 
 @import "vendor/foundation";
 
@@ -39,11 +40,22 @@ $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
     }
 }
 
+// Helper styles
 .accent {
     color: $accent-color;
+}
+
+.right-aligned {
+    float: right;
 }
 
 // Padded articles for containing iframes
 .padded-article {
     padding-bottom: rem-calc(20);
+}
+
+// Footer
+footer {
+    padding-top: rem-calc(32);
+    text-align: center;
 }

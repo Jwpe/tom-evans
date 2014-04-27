@@ -3455,7 +3455,7 @@ dialog[open] {
       height: 0;
       padding: 0;
       list-style: none;
-      border-top-color: white; }
+      border-top-color: #a60000; }
 
 .split.button {
   position: relative;
@@ -5273,5 +5273,12 @@ th.hide-for-touch {
 .accent {
   color: #a60000; }
 
+.right-aligned {
+  float: right; }
+
 .padded-article {
   padding-bottom: 1.25rem; }
+
+footer {
+  padding-top: 2rem;
+  text-align: center; }
