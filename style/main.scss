@@ -30,6 +30,7 @@ $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
     font-family: "Ubuntu", sans-serif;
 }
 
+// Sidebar styles
 .sidebar {
     background-color: $sidebar-color;
 
@@ -40,4 +41,9 @@ $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
 
 .accent {
     color: $accent-color;
+}
+
+// Soundcloud iframe styles
+.soundcloud {
+    padding-bottom: rem-calc(20);
 }
