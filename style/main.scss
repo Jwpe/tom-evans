@@ -43,7 +43,7 @@ $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
     color: $accent-color;
 }
 
-// Soundcloud iframe styles
-.soundcloud {
+// Padded articles for containing iframes
+.padded-article {
     padding-bottom: rem-calc(20);
 }
